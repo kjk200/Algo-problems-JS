@@ -11,7 +11,7 @@ var greet = function (name) {
     return ("Hello" + " " + firstLetter + restOfName + "!");
 };
 
-greet("  RANI 1982 @@ ");
+greet("  LAADI 1982 @@ ");
 
 //replace(/ +/g, "")
 //trim removes white space
