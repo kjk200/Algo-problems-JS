@@ -10,14 +10,15 @@
 // Two strings are the longest: "folingtrashy" and "abcdefuvwxyz".
 // The first that came is "folingtrashy" so 
 // longest_consec(strarr, 2) should return "folingtrashy".
+// Need to complete this.
 
 function longestConsec(strarr, k) {
 
     for (let i = 0; i < k; i++) {
-        for(let char of strarr){
-            
+        for (let char of strarr) {
+
         }
-        
+
 
     }
     return strf;
