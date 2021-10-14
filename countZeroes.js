@@ -2,11 +2,11 @@
 
 const findZeroes = (n) => {
     let zeroCount = 0;
-    while (n > 0) {
+    while (n > 1) {
         zeroCount += Math.floor(n / 10);
         n = n / 10;
     }
     console.log(zeroCount);
 }
 
-findZeroes(10);
+findZeroes(100);
