@@ -14,6 +14,7 @@
 
 function highAndLow(numbers) {
     numbers = numbers.split(' ');
+    console.log(numbers);
     return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
 }
 

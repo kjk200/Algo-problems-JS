@@ -13,15 +13,19 @@
 // Need to complete this.
 
 function longestConsec(strarr, k) {
+    if (strarr.length == 0 || k > strarr.length || k <= 0) return '';
+    let newStr = "";
+    let longStr = "";
 
-    for (let i = 0; i < k; i++) {
-        for (let char of strarr) {
-
+    for (let i = 0; i < strarr.length - 1; i++) {
+        newStr = strarr.slice(i, i + k).join("");
+        if (newStr.length > longStr.length) {
+            longStr = newStr;
         }
 
-
     }
-    return strf;
+    console.log(longStr);
+    return longStr;
 }
 
-console.log(longestConsec(["tree", "foling", "trashy", "blue", "abcdef", "uvwxyz"], 2));
+longestConsec(["tree", "foling", "trashy", "blue", "abcdef", "uvwxyz"], 2);

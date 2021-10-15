@@ -1,4 +1,4 @@
-
+// Palindrome is a word that reads same front to back and back to front
 const isPalindrome = (str) => {
     wstr = str.toLowerCase();
     revStr = wstr.split("").reverse().join("");
