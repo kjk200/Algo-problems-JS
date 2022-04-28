@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('secondmessage') {
+      steps {
+        echo 'Again Helloooo'
+      }
+    }
+
   }
 }
