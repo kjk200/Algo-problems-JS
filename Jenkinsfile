@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('thirdmessage') {
+      steps {
+        echo 'Third Hellooo'
+      }
+    }
+
   }
 }
