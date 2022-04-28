@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Fourth mssg') {
+      steps {
+        echo 'Hi Hi 4th'
+      }
+    }
+
   }
 }
