@@ -7,5 +7,17 @@ pipeline {
       }
     }
 
+    stage('secondmessage') {
+      steps {
+        echo 'Again Helloooo'
+      }
+    }
+
+    stage('thirdmessage') {
+      steps {
+        echo 'Third Hellooo'
+      }
+    }
+
   }
 }
