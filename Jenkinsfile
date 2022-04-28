@@ -12,12 +12,17 @@ pipeline {
         echo 'Again Helloooo'
       }
     }
-
-    stage('Fourth mssg') {
+    
+    stage('thirdmessage') {
       steps {
-        echo 'Hi Hi 4th'
+        echo 'Third Hellooo'
       }
     }
 
+    stage('Fourth mssg') {
+      steps {
+        echo 'Hi Hi 4th'  
+    }
+
   }
-}
+  }
