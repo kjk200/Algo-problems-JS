@@ -19,24 +19,16 @@
 // }
 
 
-function sumofTwo(arr, sum) {
-    var len = arr.length;
+const sumOfTwo = function (nums, target) {
 
-    for (var i = 0; i < len - 1; i++) {
-        for (var j = i + 1; j < len; j++) {
-            if (arr[i] + arr[j] == sum) {
-                console.log(arr[i], arr[j]);
-                return true;
-            }
+    return nums.map((num, i) => {
+        const complement = target - num;
+        const j = nums.findIndex((n, index) => n === complement && index != i);
+        return j !== -1 ? [i, j] : null;
+    }).find(Boolean);
 
-        }
-    }
-    console.log("No");
-    return false;
 }
 
 
-sumofTwo([2, 3, 4, 2, 2, 2], 9);
-
-
+console.log(sumOfTwo(nums, 6));
 
