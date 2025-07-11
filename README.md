@@ -1,1 +1,1 @@
-# Coding-problems-JS
+# Algo-problems-JS
